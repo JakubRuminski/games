@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <title> Project </title>
+            <link rel="stylesheet" href="index.css" />
+            <script src='index.js' ></script>
+        </head>
+        <body>
+            <form>
+                <fieldset>
+                    <label for="score">Score:</label>
+                    <input type="text" name="score" id="score" value="0" disabled>
+                    <span id="checker"></span>
+                </fieldset>
+             </form>
+            <canvas width='700' height='400'> </canvas>
+            <section id="gameButtons">
+                <button type="button" onclick="buttonMoveLeft()" > Left </button>
+                <button type="button" onclick="buttonMoveJump()"> Jump </button>
+                <button type="button" onclick="buttonMoveRight()"> Right </button>
+            </section>
+            <span>Press Left or Right Arrow key to move.</span>
+            <br>
+            <span>Press Enter to Jump/Use jetpack...</span>
+        </body>
+    </html>
